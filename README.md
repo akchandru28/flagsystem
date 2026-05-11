@@ -97,7 +97,3 @@ Once both servers are running:
 - **Protected Routes:** Ensure that unauthorized users cannot access admin or super-admin dashboards.
 - **Intelligent Redirection:** Automatically routes authenticated users back to their respective dashboards if they attempt to view a login page while a session is active.
 - **Data Isolation:** All feature flags are strictly scoped to their respective `organizationId`, meaning data does not bleed across tenants.
-
-## 📄 License
-
-This project is licensed under the MIT License.
